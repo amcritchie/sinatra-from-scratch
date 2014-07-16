@@ -1,34 +1,16 @@
-# Sinatra with SQL CRUD
+http://emails-for-terence.herokuapp.com
 
-We're building the next hot fish favoriting site; fish.ly. Google, Apple, IBM, and anyone who's anyone is entering this market; we have to move fast. For our MVP (Minimum Viable Product) the site needs to let users register, create fish, and favorite other people's fish. If this is shipped by the end of this week, we close a $20m round at a $300m valuation; just enough to feed our families!
+Terence's Next Big Thing
+Terence Lee, an esteemed Senior Member of the Technical Staff, Ruby Task Force Leader and Jedi Level Conference Speaker, is so impressed with the skill level of gSchool that he's ready to leave it all behind to invest in one of you. However, to help determine where is millions of dollars will go, he's tasked you all with a challenge.
 
-Since someone decided that more engineers means more throughput, I've made the executive decision to have you all work in pairs and produce the same application 13 times. Of course, as your engineering manager, I know this isn't true, but hey who am I to disagree with the people writing the checks; you all have a job, so be thankful. When it's all said and done I'll tell 'em we all worked hard to produce a single version of their vision, but we all know Google's going to beat us anyways. I heard they have a fish favoriting watch or something.
+He wants a small sinatra application with a catchy name and an email sign up. This application must be on Heroku (obviously) within the hour to qualify. The email sign up should be front and center! To prove your technical chops, the email signup should save every email that comes through in a database.
 
-Anyways, back to the application!
+Good luck! This could be it!
 
-# Exercise
+Suck up to Terence
 
-This web application will walk through a site complete with registration, login, fish creation, user interaction. You'll even be able to delete other users! Exciting!
+If you finish with the first task, provide a way for Terence to view the emails in the database. He's not very good at Ruby; no one actually uses bundler.
 
-Follow the mockups and stories to get started. The mockups only go through to user sign up and registration. Anything after that is up to you to decide how it looks, since we fired that guy because we didn't need him, obviously, and besides we all know engineers are pretty much designers anyways. Please add your tracker to your students submission.
+Really suck up to Terence
 
-## Getting started
-
-1. `bundle install`
-1. Import `stories.csv` into tracker.
-1. Create a heroku app. `$ heroku create`
-1. `$ cp config/database.yml.example config/database.yml` #
-1. `$ rake db:create`
-1. `$ rake db:migrate`
-1. `$ RACK_ENV=test rake db:migrate`
-1. Run rspec to check that it worked
-1. Start a story
-1. *Write a test!*
-1. See the test fail for the _reason you expect_
-1. Write implementation
-1. Commit and push to GitHub
-1. Push to Heroku
-  * run migrations on heroku if necessary!
-1. Finish and deliver story
-1. Check heroku and bask in the glory of real software
-1. Rinse and Repeat
+Show the emails in the database without writing any code.
